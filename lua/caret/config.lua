@@ -6,11 +6,13 @@ M.defaults = {
     height = 10,
     border = "rounded",
     title = "caret",
-    title_pos = "center"
+    title_pos = "center",
+    row=14,
+    col=46
 }
 
-M.options = {}
-
+-- Making sure that even if the setup is not called the plugin can run 
+M.options = vim.deepcopy(M.defaults)
 
 -- Setup function 
 
@@ -23,8 +25,5 @@ function M.setup(opts)
     M.options.col = math.floor((editor_width - M.options.width)/2)
 end
 
-M.setup({row = 33})
-
-vim.print(M.options)
-
 return M
+
