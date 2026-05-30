@@ -62,12 +62,13 @@ A floating scratch buffer will appear.
 
 Type or paste any text you want to share.
 
-### Keymaps
+### Press Key inside the window
 
 | Key    | Action                             |
 | ------ | ---------------------------------- |
 | `<CR>` | Upload buffer contents to paste.rs |
 | `q`    | Close Caret                        |
+
 
 After uploading, the buffer contents will be replaced with the generated URL.
 

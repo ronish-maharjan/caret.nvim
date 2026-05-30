@@ -1,0 +1,21 @@
+*caret.txt*
+
+==============================================================================
+INTRODUCTION 
+
+Caret is a utility plugin used to share the text online. It uses `paste.rs` api
+for sharing the text.
+
+Getting started with caret: 
+1. Run `Caret` to open the window where u can paste the text
+2. Press `Enter` in normal mode to generate url 
+3. To Close/Quit press `q`
+
+
+Keybindings you can create
+
+As this plugin have exposed the `Caret` command you can use that commad in key map
+
+Example:
+    vim.keymap.set("n","<leader>cp","<cmd>Caret<Cr>")
+
