@@ -1,0 +1,31 @@
+*caret.txt*
+
+==============================================================================
+INTRODUCTION 
+
+Caret is a utility plugin used to share the text online. It uses `paste.rs` api
+for sharing the text.
+
+Getting started with caret: 
+1. Run `:Caret` to open the window where u can paste the text
+2. Press `Enter` in normal mode to generate url 
+3. To Close/Quit press `q`
+
+==============================================================================
+KEYBINDINGS YOU CAN CREATE
+
+As this plugin have exposed the `Caret` command you can use that commad in key map
+
+Example:
+    vim.keymap.set("n","<leader>cp","<cmd>Caret<Cr>")
+
+
+**Why i build this?**
+
+So the problem was in **college** when my friends ask me to share some code i usually go to the pastebin or paste.rs
+then click create paste wait some seconds then it will generate the sharable url but it too long process 
+what i want an easy one just paste the code you want to share with out opening the browser with in the editor hit enter the url is generated in a second.
+
+**Thats how i got an idea why not build a plugin that solve this problem** 
+
+**Also this was the first plugin I created ;)**
